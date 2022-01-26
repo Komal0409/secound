@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #333; */
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/24527729/thumb/1.jpg);
+
+}
+#black{
+    position: absolute;
+    width: 29%;
+    height: 100%;
+    left: 30%;
+    background-image:linear-gradient(to top, rgba(255,0,0,0), rgba(22, 22, 22, 0.801));
+    border-image: linear-gradient(to top,rgba(255,0,0,0),rgba(22, 22, 22))30;
+    border-left: 1px solid rgba(0, 0, 0, 0.356);
+    border-right: 1px solid rgba(0, 0, 0, 0.335);
+}
+
+#ee{
+    position: absolute;
+    height: 50%; 
+    /* width: 28%; */
+    right: 0%; 
+}
+#ee:hover{
+    /* border-color: cyan; */
+    /* box-shadow: 0 0.5em 0.5em,-0.4  cyan; */
+    transform: translateY(-0.5em);
+    /* background-image:linear-gradient(rgba(220,20,60,0.411),rgba(0,255,255,0.801),rgba(220,20,60,0.411)); */
+
+}
+#sp{
+    position: absolute;
+
+}
+#er2{
+    position: absolute;
+    /* left: 0%; */
+    /* width: 30%; */
+    height: 100%;
+    /* background-color: #161c2a; */
+}
+#er2:hover{
+    transform: translateY(-0.5em);
+
+
+}
+#r2{
+    position: absolute;
+    top: 70%;
+    /* width: 80%; */
+    left: 70%;
+    /* right: 0%; */
+}
+#p{
+    position: absolute;
+    top: 4%;
+    left: 30%;
+}
+#heading{
+    position: absolute;
+    top: 28%;
+    font-size: 120px;
+    color: white;
+    letter-spacing: 5px;
+}
+#heading:hover{
+    color: cornflowerblue;
+    border-image: 0.5rem;
+}
+#a1{
+    position: absolute;
+    top: 25%;
+    color: cornsilk;
+}
+#a2{
+    position: absolute;
+    top: 48%;
+    color: darkgrey;
+    letter-spacing: 1px;
+}
+#a3{
+    position: absolute;
+    top: 83%;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    left: 30%;
+    color: white;
+}
+#a3:hover{
+    color: darkslateblue;
+
+
+}
+#a4{
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    letter-spacing: .4px;
+    color: rgb(235, 229, 229);
+}
+#a5{
+    position: absolute;
+    top: 83%;
+    left: 59%;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: white;
+}
+#a5:hover{
+    color: darkslateblue;
+}
+#a6{
+    position: absolute;
+    top: 87%;
+    left: 59%;
+    letter-spacing: .4px;
+    color: rgb(235, 229, 229);
+
+}
+#a7{
+    position: absolute;
+    top: 83%;
+    left: 89%;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: white;
+}
+#a7:hover{
+    color: darkslateblue;
+}
+#a8{
+    position: absolute;
+    top: 87%;
+    left: 89%;
+    letter-spacing: .4px;
+    color:white;
+
+}
+#h1{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    letter-spacing: 1px;
+    color:white;
+}
+#h1:hover{
+    color:#3a7fbb;
+    /* background-color: #3a7fbb; */
+}
+#h2{
+    position: absolute;
+    top: 20px;
+    left: 65%;
+    letter-spacing: 1px;
+    color: white;
+}
+#h2:hover{
+    color: #3a7fbb;
+    /* background-color: #3a7fbb; */
+}
+#h3{
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    letter-spacing: 1px;
+    color: white;
+}
+#h3:hover{
+    color: #3a7fbb;
+    /* background-color: #3a7fbb; */
+}
+#menu{
+    position: absolute;
+    right:15px;
+    top: 16px;
+    height: 21px;
+}
+#s1{
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    color: darkgrey;
+}
+#s2{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    color:darkgrey;
+}
+#s3{
+    position: absolute;
+    right: 15px;
+    top: 55%;
+    color: darkgrey;
+}
+#s4{
+    position: absolute;
+    right: 15px;
+    top: 60%;
+    color: darkgrey;
+}
